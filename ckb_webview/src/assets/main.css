@@ -1,0 +1,35 @@
+@import './base.css';
+
+#app {
+  max-width: 95vw;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: hsla(255, 100%, 100%, 1);
+  transition: 0.4s;
+  /* padding: 1rem 2rem 1rem 2rem; */
+}
+
+@media (hover: hover) {
+  a:hover {
+    /* background-color: hsla(160, 100%, 37%, 0.2); */
+    background-color: hsla(255, 100%, 100%, 0.1);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    /* place-items: center; */
+  }
+
+  #app {
+    padding: 1rem 2rem;
+    margin: 0;
+    min-width: 100%
+  }
+}
